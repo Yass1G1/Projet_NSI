@@ -1,0 +1,15 @@
+Jeu de base : 
+
+Faire le background : arrière plan avec des nuages/montagne pour montrer l'avancement du dinosaure (change au fil des paliers de score atteints)
+Faire le sol : il bouge avec un pattern de sol qui se répète
+Faire les obstacles : ce sont des items qui sont fixé au sol et qui. Dès qu'il touche le perso, fin du jeu, recommencer, 
+Faire le dinosaure : il ne bouge pas, il change d'image c'est le background qui bouge et avance.
+	Mouvements : Sauter (pour esquiver les obstacles), se baisser.
+
+
+Vitesse du jeu : Le jeu augmente dès lors que l'on atteint des paliers de score
+
+Elements dont on aura besoin : 
+	Tkinter  : pour la fenêtre
+	Pygame : pour la base du jeu et les déplacements
+

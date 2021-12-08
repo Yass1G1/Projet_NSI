@@ -1,0 +1,59 @@
+Cahier des charges :
+Interaction du joueur : 
+  •	Flèches pour bouger
+  •	ZQSD pour bouger
+  •	Espace pour tirer
+  
+Règles :
+  •	Var du temps de jeu
+  •	Vitesse
+  •	Scores
+    o	Score qui monte au fil du score
+    o	Meilleur score
+  •	Menu
+  •	Interface
+  •	Fin du jeu / Game over
+    o	Affichage du score, du temps de jeu, 
+    
+Contenu :
+  •	Personnage
+    o	Dragon (perso main)
+  •	Background (nuages, montagnes, différentes ambiances)
+  •	Foreground (sol)
+  •	Mouvements
+    o	Haut
+    o	Bas
+  •	Entités 
+    o	Entités fixes (obstacle à sauter)
+    o	Entités volantes (obstacle à sauter/esquiver)
+    o	Trous (de lave, d’eau, de vide)
+    
+Page Web :
+  •	Menus : 
+    o	Présentation
+      	Site pour télécharger
+    o	About us
+    o	Lien GITHUB (open-source)
+    o	Contact (flemme de faire ça un peu)
+
+Variables/fonctions : 
+  •	Dinosaure
+    o	Images : quand il marche
+    o	Faire sa hitbox (quand il va toucher un obstacle
+      	La faire bouger lorsqu’il saute
+  •	Sol
+    o	Obstacle 
+      	Entités volantes
+      	Entités fixes
+    o	Loop du sol
+    o	Là ou le dino va marcher
+  •	Background
+    o	Images qui défilent lentement 
+  •	Interface
+    o	Menu d’entrée
+      	Boutons de niveaux
+      	Boutons de jouer
+    o	Menu de fin/game over
+      	Boutons : aller au menu
+      	Bouton recommencer
+      	Affichage du PB, et du score fait
